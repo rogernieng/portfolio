@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H-Class Rocket Kit | Project 2</title>
+
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Back to Home -->
+        <a href="../index.html" class="back-link">
+            <i class="fas fa-arrow-left"></i> Back to home
+        </a>
+
+        <!-- Project Title -->
+        <div class="header">
+            <h1 class="username">H-Class Rocket Kit</h1>
+        </div>
+
+        <hr class="line">
+
+    
+
+        <!-- Overview -->
+        <div class="project-section">
+            <h2>Overview</h2>
+
+            <p>
+                Designed and manufactured a high-power model rocket as part of an 
+                L1 rocketry certification project using the Zephyr rocket kit and 
+                an H283ST-14A motor. The project involved flight simulation, 
+                structural assembly, motor configuration, and preparation for launch. 
+            </p>
+        </div>
+
+        <!-- Project Workflow -->
+        <div class="project-section">
+            <h2>Project Workflow</h2>
+
+            <p>
+                The rocket was developed through a hands-on engineering process 
+                combining flight simulation, fabrication, assembly, and testing. 
+                OpenRocket was used to evaluate the expected flight performance and 
+                verify the rocket's configuration before launch. 
+            </p>
+
+            <ul>
+                <li>
+                    Used OpenRocket to simulate the rocket's flight trajectory, 
+                    including expected altitude, velocity, stability, and motor 
+                    performance. 
+                </li>
+
+                <li>
+                    Studied the construction and structural requirements of a 
+                    high-power rocket, including airframe, fin, motor mount, and 
+                    recovery system components. 
+                </li>
+
+                <li>
+                    Manufactured and assembled the rocket using the Zephyr rocket 
+                    kit, preparing the airframe and components for flight. 
+                </li>
+
+                <li>
+                    Configured the motor delay using a Universal Delay Drill Tool 
+                    (UDDT) based on the simulated flight profile. 
+                </li>
+
+                <li>
+                    Performed final preparation and launched the completed rocket 
+                    as part of the L1 certification attempt. 
+                </li>
+            </ul>
+        </div>
+
+
+
+        <!-- Additional Project Image -->
+
+
+    </div>
+
+</body>
+
+</html>
