@@ -81,9 +81,9 @@ body {
 .video-wrapper {
 	position: relative;
 	width: 100%;
-	max-width: 360px;       /* keeps the vertical Short from getting huge */
+	max-width: 360px;
 	aspect-ratio: 9 / 16;
-	margin: 20px auto;      /* centers it */
+	margin: 20px auto;
 }
 
 .video-wrapper iframe {
@@ -102,13 +102,13 @@ body {
 }
 
 /* ============================
-   MOTTO
+   MOTTO (only element using Cinzel)
    ============================ */
 .motto {
 	text-align: center;
 	font-family: 'Cinzel', serif;
 	font-weight: 600;
-	font-size: 1.8rem;          /* same as the h2 headings */
+	font-size: 1.8rem;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	margin: 40px 0;
@@ -171,7 +171,7 @@ a {
 	}
 
 	.motto {
-		font-size: 1.5rem;
+		font-size: 1.5rem !important;
 	}
 }
 
@@ -200,6 +200,6 @@ a {
 	}
 
 	.motto {
-		font-size: 1.3rem;
+		font-size: 1.3rem !important;
 	}
 }
