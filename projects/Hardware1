@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H-Class Rocket Kit | Project 2</title>
+    <title>Phoenix Control Ground Station | Project 4</title>
 
     <link rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -25,13 +25,13 @@
 
         <!-- Project Title -->
         <div class="header">
-            <h1 class="username">Pheonix Control Ground Station</h1>
+            <h1 class="username">Phoenix Control Ground Station</h1>
         </div>
 
         <hr class="line">
 
         <img src="../images/p4home.jpg"
-             alt="heroimage"
+             alt="Phoenix control ground station with control board"
              class="project-hero-img">
 
         <!-- Overview -->
@@ -39,7 +39,7 @@
             <h2>Overview</h2>
 
             <p>
-                Asemble a board which helps transmit singal from the ground station switches to actuate the solenoid and release the fluid valves. 
+                Assemble a board that transmits signals from the ground station switches to actuate the solenoids and release the fluid valves.
             </p>
         </div>
 
@@ -48,37 +48,46 @@
             <h2>Project Workflow</h2>
 
             <p>
-                Replace the old ardunio uno into esp32 microcontrol. Access power transmittion. The board contains a ethernet cable, connected to the ground stations, esp32 microcontroller to read signals, buck converter to step down voltage from the 24V battery LIPO, level Shifter to step up to 5V signal required by the solenoid, MOSTFET to communicate to solenoid, and connectors wired to the solenoid. 
+                Replace the old Arduino Uno with an ESP32 microcontroller and set up power distribution. The board contains an Ethernet connection to the ground station, an ESP32 microcontroller to read signals, a buck converter to step down voltage from the 24V LiPo battery, a level shifter to step the signals up to the 5V required by the solenoid driver, a MOSFET to drive the solenoid, and connectors wired to the solenoids.
             </p>
 
             <ul>
-                <li>
-                    CAD and Lasercut the board
-                </li>
-                <li>
-                    Strip wires and assemble the board
-                </li>
+                <li>CAD and laser-cut the board</li>
+                <li>Strip wires and assemble the board</li>
             </ul>
         </div>
 
+        <!-- Additional Project Images -->
+        <img src="../images/p4img1.jpg"
+             alt="Laser-cut control board mounted in the ground station enclosure"
+             class="project-hero-img">
 
+        <img src="../images/robot.jpg"
+             alt="Phoenix ground station with six control switches"
+             class="project-hero-img">
 
-<!-- Additional Project Images -->
-<img src="../images/p4img1.jpg"
-     alt="Laser-cut control board mounted in the ground station enclosure"
-     class="project-hero-img">
+        <img src="../images/p4img3.jpg"
+             alt="ESP32 microcontroller and buck converter wired on the control board"
+             class="project-hero-img">
 
-<img src="../images/robot.jpg"
-     alt="Phoenix ground station with six control switches"
-     class="project-hero-img">
+        <img src="../images/p4img4.jpg"
+             alt="Solenoid and MOSFET wiring during testing"
+             class="project-hero-img">
 
-<img src="../images/p4img3.jpg"
-     alt="ESP32 microcontroller and buck converter wired on the control board"
-     class="project-hero-img">
+        <!-- Project Video -->
+        <div class="project-section">
+            <h2>Demo Video</h2>
 
-<img src="../images/p4img4.jpg"
-     alt="Solenoid and MOSFET wiring during testing"
-     class="project-hero-img">
+            <div class="video-wrapper">
+                <iframe
+                    src="https://www.youtube.com/embed/qThRzipX_Ng"
+                    title="Phoenix Control Ground Station demo"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
 
     </div>
 
