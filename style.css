@@ -95,20 +95,23 @@ body {
 	border: 0;
 	border-radius: 10px;
 }
+
 .video-wrapper.video-wide {
 	max-width: 100%;
 	aspect-ratio: 16 / 9;
 }
 
+/* ============================
+   MOTTO
+   ============================ */
 .motto {
 	text-align: center;
 	font-family: 'Cinzel', serif;
 	font-weight: 600;
-	font-size: clamp(1.8rem, 6vw, 3.5rem);  /* big, but shrinks on phones */
+	font-size: 1.8rem;          /* same as the h2 headings */
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
-	margin: 50px 0 30px;
-}
+	margin: 40px 0;
 }
 
 /* ============================
@@ -166,6 +169,10 @@ a {
 	.project-section h2 {
 		font-size: 1.5rem;
 	}
+
+	.motto {
+		font-size: 1.5rem;
+	}
 }
 
 /* Phones */
@@ -190,5 +197,9 @@ a {
 	.project-section p,
 	.project-section li {
 		font-size: 0.95rem;
+	}
+
+	.motto {
+		font-size: 1.3rem;
 	}
 }
