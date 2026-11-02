@@ -25,7 +25,7 @@
 
         <!-- Project Title -->
         <div class="header">
-            <h1 class="username">H-Class Rocket Kit</h1>
+            <h1 class="username">Pheonix Control Ground Station</h1>
         </div>
 
         <hr class="line">
@@ -37,10 +37,7 @@
             <h2>Overview</h2>
 
             <p>
-                Designed and manufactured a high-power model rocket as part of an 
-                L1 rocketry certification project using the Zephyr rocket kit and 
-                an H283ST-14A motor. The project involved flight simulation, 
-                structural assembly, motor configuration, and preparation for launch. 
+                Asemble a board which helps transmit singal from the ground station switches to actuate the solenoid and release the fluid valves. 
             </p>
         </div>
 
@@ -49,38 +46,15 @@
             <h2>Project Workflow</h2>
 
             <p>
-                The rocket was developed through a hands-on engineering process 
-                combining flight simulation, fabrication, assembly, and testing. 
-                OpenRocket was used to evaluate the expected flight performance and 
-                verify the rocket's configuration before launch. 
+                Replace the old ardunio uno into esp32 microcontrol. Access power transmittion. The board contains a ethernet cable, connected to the ground stations, esp32 microcontroller to read signals, buck converter to step down voltage from the 24V battery LIPO, level Shifter to step up to 5V signal required by the solenoid, MOSTFET to communicate to solenoid, and connectors wired to the solenoid. 
             </p>
 
             <ul>
                 <li>
-                    Used OpenRocket to simulate the rocket's flight trajectory, 
-                    including expected altitude, velocity, stability, and motor 
-                    performance. 
+                    CAD and Lasercut the board
                 </li>
-
                 <li>
-                    Studied the construction and structural requirements of a 
-                    high-power rocket, including airframe, fin, motor mount, and 
-                    recovery system components. 
-                </li>
-
-                <li>
-                    Manufactured and assembled the rocket using the Zephyr rocket 
-                    kit, preparing the airframe and components for flight. 
-                </li>
-
-                <li>
-                    Configured the motor delay using a Universal Delay Drill Tool 
-                    (UDDT) based on the simulated flight profile. 
-                </li>
-
-                <li>
-                    Performed final preparation and launched the completed rocket 
-                    as part of the L1 certification attempt. 
+                    Strip wires and assemble the board
                 </li>
             </ul>
         </div>
