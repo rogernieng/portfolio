@@ -102,7 +102,7 @@ body {
 }
 
 /* ============================
-   MOTTO (only element using Cinzel)
+   MOTTO (only element using Dancing Script)
    ============================ */
 .motto {
 	text-align: center;
@@ -111,6 +111,7 @@ body {
 	font-size: 2.2rem;
 	margin: 40px 0;
 }
+
 /* ============================
    PROJECT SECTIONS
    ============================ */
@@ -168,7 +169,7 @@ a {
 	}
 
 	.motto {
-		font-size: 1.5rem !important;
+		font-size: 1.9rem;
 	}
 }
 
@@ -197,6 +198,6 @@ a {
 	}
 
 	.motto {
-		font-size: 1.3rem !important;
+		font-size: 1.6rem;
 	}
 }
