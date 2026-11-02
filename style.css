@@ -76,6 +76,27 @@ body {
 }
 
 /* ============================
+   VIDEO (YouTube embed)
+   ============================ */
+.video-wrapper {
+	position: relative;
+	width: 100%;
+	max-width: 360px;       /* keeps the vertical Short from getting huge */
+	aspect-ratio: 9 / 16;
+	margin: 20px auto;      /* centers it */
+}
+
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	border-radius: 10px;
+}
+
+/* ============================
    PROJECT SECTIONS
    ============================ */
 .project-section {
